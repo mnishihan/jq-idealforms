@@ -436,8 +436,6 @@ The templating rules are:
 - **{@list} html {/list}:** A loop.
 - **{#var}:** A loop variable (inside the loop).
 
-Dynamic Fields provides the following methods:
-
 #### .idealforms('removeFields', names)
 
 Remove fields from the form.
