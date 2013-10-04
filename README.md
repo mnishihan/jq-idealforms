@@ -417,7 +417,7 @@ The HTML is generated according to built-in templates. If you're using your own 
 ```
 
 ```javascript
-$('form').idealforms('templates', {
+$('form').idealforms({
 
   templates: {
     base: '...',
