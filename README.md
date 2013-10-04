@@ -401,7 +401,7 @@ The templating rules are:
 - **{@list} html {/list}:** A loop.
 - **{#var}:** A loop variable (inside the loop).
 
-Dynamic Fields adds injection points in the following for `addFields`, `removeFields` and `toggleFields`. Read about [custom extensions](#custom-extensions) for more info.
+Dynamic Fields adds injection points for `addFields`, `removeFields` and `toggleFields`. Read about [custom extensions](#custom-extensions) for more info.
 
 #### .idealforms('removeFields', names)
 
