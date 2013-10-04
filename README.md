@@ -123,6 +123,10 @@ Callback that runs when the form is submitted.
 - **invalid:** The number of invalid fields if any.
 - **event:** The submit event (prevented by default).
 
+### rules, errors
+
+See [Adding Rules](#adding-rules)
+
 ## Markup
 
 You can get started quickly using Ideal Forms' default markup: 
