@@ -178,7 +178,7 @@
         'date': 'date',
         'picture': 'required extension:jpg:png',
         'website': 'url',
-        'hobbies[]': 'minoption:1 maxoption:2',
+        'hobbies[]': 'minoption:2 maxoption:3',
         'phone': 'required phone',
         'zip': 'required zip',
         'options': 'select:default',

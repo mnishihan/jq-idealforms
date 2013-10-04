@@ -21,6 +21,7 @@ Ideal Forms 3 is **not** compatible with version 2. You can still find Ideal For
 ### TODO
 
 - Bring back responsive theme
+- i18n
 
 ## Table of Contents
 
