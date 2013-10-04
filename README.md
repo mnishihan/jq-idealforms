@@ -1,4 +1,4 @@
-![Ideal Forms logo](http://i.imgur.com/45fVuUM.png)
+![Ideal Forms logo](http://i.imgur.com/wg9htKk.png)
 
 The best forms just got better! Ideal Forms 3 is smaller, faster, and more extensible.
 
@@ -48,7 +48,7 @@ Ideal Forms 3 is **not** compatible with version 2. You can still find Ideal For
 - Load latest [jQuery](http://code.jquery.com/jquery-2.0.3.min.js) library
 - Load `css/jquery.idealforms.css` stylesheet
 - Load `js/out/jquery.idealforms.min.js` plugin
-- Download images and make sure the [path is correct](#why-the-icons-dont-show-up)
+- Place images in a folder and make sure the [path is correct](#why-the-icons-dont-show-up)
 - For better IE support, replace the opening `html` tag with:
 
 ```html
