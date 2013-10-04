@@ -34,7 +34,7 @@ Ideal Forms 3 is **not** compatible with version 2. You can still find Ideal For
 - [Methods](#methods)
 - [Built-in Extensions](#built-in-extensions)
     - [Dynamic Fields](#extension-dynamic-fields)
-    - [Steps](#extension:-steps)
+    - [Steps](#extension-steps)
     - [Custom Inputs](#extension-custom-inputs)
     - [Ajax](#extension-ajax)
     - [Datepicker](#extension-datepicker)
