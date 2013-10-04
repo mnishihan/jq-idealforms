@@ -125,7 +125,7 @@ Callback that runs when the form is submitted.
 
 ### rules
 
-Field rules. See [Adding Rules](#adding-rules)
+Field rules. See [Adding Rules](#adding-rules).
 
 ### errors
 
