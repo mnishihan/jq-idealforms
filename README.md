@@ -615,7 +615,7 @@ If the rule is a function that takes rule parameters pass the parameters as `{0}
 To add a custom extension provide a `name`, extended `options` and extended `methods` if any. You can inject code into the following built-in methods:
 
 - **_init:** Runs when the plugin is initialized, but before any inputs are added to the form.
-- **_buildField(input):** Builds the input given the markup options to work with ideal Forms. `input` is the current input element being built.
+- **_buildField(input):** Builds the input given the markup options to work with Ideal Forms. `input` is the current input element being built.
 - **_validate(input, rule, valid):** Runs right after the input has been validated. `input` is the input element, `rule` is the rule that tried to pass validation and `valid` is a boolean flag.
 - **addRules:** It gets invoked on `_init` to add the initial rules and whenever you add more rules to the form.
 - **focusFirstInvalid:** Inject code when the first input is focused.
@@ -647,7 +647,7 @@ $.idealforms.addExtension({
 
 ## Themes
 
-Ideal Forms 3 is using [Stylus](http://learnboost.github.io/stylus/). To create your own theme to use with the default markup open `styl/vars.stly`, modify what you need and [compile](#build--share).
+Ideal Forms 3 is built with [Stylus](http://learnboost.github.io/stylus/). To create your own theme to use with the default markup open `styl/vars.stly`, modify what you need and [compile](#build--share).
 
 ```sass
 valid = #3F9DCC // valid font color
