@@ -647,7 +647,7 @@ $.idealforms.addExtension({
 
 ## Themes
 
-Ideal Forms 3 is built with [Stylus](http://learnboost.github.io/stylus/). To create your own theme to use with the default markup open `styl/vars.stly`, modify what you need and [compile](#build--share).
+Ideal Forms 3 themes are built with [Stylus](http://learnboost.github.io/stylus/). To create your own theme to use with the default markup open `styl/vars.stly`, modify what you need and [compile](#build--share).
 
 ```sass
 valid = #3F9DCC // valid font color
