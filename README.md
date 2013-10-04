@@ -247,7 +247,7 @@ $('form').idealforms('addRules', {
 
 ### Custom Errors
 
-You an customize the errors for the rules you added:
+To display your own custom errors for the rules you added pass the names and a list of errors for each field:
 
 ```javascript
 $('form').idealforms({
@@ -260,6 +260,9 @@ $('form').idealforms({
     'username': {
       required: 'Please enter a username',
       username: 'This username is not valid, try again'
+    },
+    'password': {
+      password: 'Please enter a secure password'
     }
   }
 });
