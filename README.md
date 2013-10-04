@@ -290,11 +290,11 @@ Focus the first invalid field.
 
 ### .idealforms('is:valid', name)
 
-Check if the input with `name` attribute is valid.
+If you pass a `name` it will check if that input is valid, otherwise it will check if all inputs are valid.
 
 ### .idealforms('reset', name)
 
-If you pass a name it will reset that single input, if you don't it will reset all inputs to zero. That means emptying all the values of text inputs, unchecking all checkboxes and radios, and reverting selects to their default option.
+If you pass a `name` it will reset that single input, if you don't it will reset all inputs to zero. That means emptying all the values of text inputs, unchecking all checkboxes and radios, and reverting selects to their default option.
 
 ## Built-in Extensions
 
