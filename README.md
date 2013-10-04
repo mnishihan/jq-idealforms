@@ -31,6 +31,7 @@ Ideal Forms 3 is **not** compatible with version 2. You can still find Ideal For
 - [Markup](#markup)
     - [Custom Markup](#custom-markup)
 - [Adding Rules](#adding-rules)
+    - [Custom Errors](#custom-errors)
 - [Built-in Rules](#built-in-rules)
 - [Methods](#methods)
 - [Built-in Extensions](#built-in-extensions)
@@ -131,7 +132,8 @@ Field rules. See [Adding Rules](#adding-rules).
 
 ### errors
 
-Custom errors for fields you added with `rules`. Use the `name` of the input as key and the error as value.
+User defined errors for added rules. See [Custom Errors](#custom-errors).
+
 
 ## Markup
 
@@ -240,6 +242,26 @@ You can also add rules after initializing the plugin:
 ```javascript
 $('form').idealforms('addRules', {
   'comments': 'required minmax:50:200'
+});
+```
+
+### Custom Errors
+
+You an customize the errors for the rules you added:
+
+```javascript
+$('form').idealforms({
+  
+  rules: {
+    ...
+  },
+  
+  errors: {
+    'username': {
+      required: 'Please enter a username',
+      username: 'This username is not valid, try again'
+    }
+  }
 });
 ```
 
