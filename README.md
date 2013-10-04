@@ -401,6 +401,8 @@ The templating rules are:
 - **{@list} html {/list}:** A loop.
 - **{#var}:** A loop variable (inside the loop).
 
+Dynamic Fields adds injection points in the following for `addFields`, `removeFields` and `toggleFields`. Read about [custom extensions](#custom-extensions) for more info.
+
 #### .idealforms('removeFields', names)
 
 Remove fields from the form.
@@ -600,6 +602,15 @@ $.extend($.idealforms.errors, {
 If the rule is a function that takes rule parameters pass the parameters as `{0}`, `{1}`, etc. If you want to print all the parameters use `{*}` where the default separator is a comma but you can use your own like `{*~}` where `~` is the custom separator.
 
 ## Custom Extensions
+
+To add a custom extension provide a `name`, extended `options` and extended `methods` if any. You inject code into the following built-in methods:
+
+- **_init:** Runs when the plugin is initialized, but before any inputs are added to the form.
+- **_buildField(input):** Builds the input given the markup options to work with ideal Forms. `input` is the current input element being built.
+- **_validate(input, rule, valid):** Runs right after the input has been validated. `input` is the input element, `rule` is the rule that tried to pass validation and `valid` is a boolean flag.
+- **addRules:** It gets invoked on `_init` to add the initial rules and whenever you add more rules to the form.
+- **focusFirstInvalid:** Inject code when the first input is focused.
+
 
 ```javascript
 $.idealforms.addExtension({
