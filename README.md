@@ -436,7 +436,7 @@ The templating rules are:
 - **{@list} html {/list}:** A loop.
 - **{#var}:** A loop variable (inside the loop).
 
-Dynamic Fields adds injection points for `addFields`, `removeFields` and `toggleFields`. Read about [custom extensions](#custom-extensions) for more info.
+Dynamic Fields provides the following methods:
 
 #### .idealforms('removeFields', names)
 
@@ -461,6 +461,8 @@ Show or hide fields. When the fields are hidden they will be excluded from the v
 ```javascript
 $('form').idealforms('toggleFields', 'username password hobbies[]');
 ```
+
+Dynamic Fields adds injection points for `addFields`, `removeFields` and `toggleFields`. Read about [custom extensions](#custom-extensions) for more info.
 
 ### Extension: Steps  
 
