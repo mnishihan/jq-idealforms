@@ -23,8 +23,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="591.52991"
-     inkscape:cy="604.76797"
+     inkscape:cx="472.88775"
+     inkscape:cy="619.76777"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -40,13 +40,13 @@
     <linearGradient
        id="linearGradient3813">
       <stop
-         id="stop3815"
+         style="stop-color:#d43c20;stop-opacity:1;"
          offset="0"
-         style="stop-color:#d43c20;stop-opacity:1;" />
+         id="stop3815" />
       <stop
-         id="stop3817"
+         style="stop-color:#c32d11;stop-opacity:1;"
          offset="1"
-         style="stop-color:#c32d11;stop-opacity:1;" />
+         id="stop3817" />
     </linearGradient>
   </defs>
   <metadata
@@ -62,71 +62,71 @@
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Layer 1"
+     id="layer1"
      inkscape:groupmode="layer"
-     id="layer1">
+     inkscape:label="Layer 1">
     <path
-       transform="matrix(1.000000,0.000000,0.000000,1.000000,0.000000,0.000000)"
-       style="fill:#c93929;fill-opacity:1;stroke:none"
-       d="M330.0 395.3622047L643.0 395.3622047L643.0 455.3622047L499.96699 455.3622047L486.5 462.3622047L473.03301 455.3622047L330.0 455.3622047Z"
-       id="rect2989"
-       inkscape:connector-curvature="0"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/elclanrs/Desktop/idealforms3.png"
        sodipodi:nodetypes="cccccccc"
-       inkscape:export-filename="/home/elclanrs/Desktop/idealforms3.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
+       inkscape:connector-curvature="0"
+       id="rect2989"
+       d="M330.0 395.3622047L643.0 395.3622047L643.0 455.3622047L499.96699 455.3622047L486.5 462.3622047L473.03301 455.3622047L330.0 455.3622047Z"
+       style="fill:#c93929;fill-opacity:1;stroke:none"
+       transform="matrix(1.000000,0.000000,0.000000,1.000000,0.000000,0.000000)" />
     <text
-       xml:space="preserve"
-       style="font-size:30.01604652px;font-style:normal;font-weight:normal;line-height:51.99999809%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
-       x="348.3848"
-       y="438.41376"
-       id="text2985"
+       transform="scale(1.0066801,0.99336421)"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/elclanrs/Desktop/idealforms3.png"
        sodipodi:linespacing="51.999998%"
-       inkscape:export-filename="/home/elclanrs/Desktop/idealforms3.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"
-       transform="scale(1.0066801,0.99336421)"><tspan
-         sodipodi:role="line"
-         id="tspan2987"
-         x="348.3848"
-         y="438.41376"
+       id="text2985"
+       y="438.41376"
+       x="348.3848"
+       style="font-size:30.01604652px;font-style:normal;font-weight:normal;line-height:51.99999809%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         dx="0 0 0 1.0720017 1.0720017 0 0 0 0 0.53600085"
          style="font-size:30.01604652px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:51.99999809%;letter-spacing:-1.23065794px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;font-family:Arial Black;-inkscape-font-specification:'Arial Black,'"
-         dx="0 0 0 1.0720017 1.0720017 0 0 0 0 0.53600085">IDEAL FORMS </tspan></text>
+         y="438.41376"
+         x="348.3848"
+         id="tspan2987"
+         sodipodi:role="line">IDEAL FORMS </tspan></text>
     <g
-       inkscape:export-ydpi="90"
-       inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/elclanrs/Desktop/idealforms3.png"
+       id="g3760"
        transform="matrix(1.000000,0.000000,0.000000,1.000000,-1.000000,1.000000)"
-       id="g3760">
+       inkscape:export-filename="/home/elclanrs/Desktop/idealforms3.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <path
-         inkscape:export-ydpi="90"
-         inkscape:export-xdpi="90"
-         inkscape:export-filename="/home/elclanrs/Desktop/idealforms3.png"
-         transform="matrix(0.330039,0.000000,0.000000,0.325673,407.000000,295.000000)"
-         d="m 652.30602,396.16708 c 0,25.18882 -20.41957,45.60839 -45.60839,45.60839 -25.18881,0 -45.60839,-20.41957 -45.60839,-45.60839 0,-25.18881 20.41958,-45.60838 45.60839,-45.60838 25.18882,0 45.60839,20.41957 45.60839,45.60838 z"
-         sodipodi:ry="45.608387"
-         sodipodi:rx="45.608387"
-         sodipodi:cy="396.16708"
-         sodipodi:cx="606.69763"
-         id="path3770"
+         sodipodi:type="arc"
          style="fill:#ffffff;fill-opacity:1;stroke:none"
-         sodipodi:type="arc" />
-      <text
-         transform="scale(1.0066801,0.99336422)"
-         inkscape:export-ydpi="90"
-         inkscape:export-xdpi="90"
+         id="path3770"
+         sodipodi:cx="606.69763"
+         sodipodi:cy="396.16708"
+         sodipodi:rx="45.608387"
+         sodipodi:ry="45.608387"
+         d="m 652.30602,396.16708 c 0,25.18882 -20.41957,45.60839 -45.60839,45.60839 -25.18881,0 -45.60839,-20.41957 -45.60839,-45.60839 0,-25.18881 20.41958,-45.60838 45.60839,-45.60838 25.18882,0 45.60839,20.41957 45.60839,45.60838 z"
+         transform="matrix(0.330039,0.000000,0.000000,0.325673,407.000000,295.000000)"
          inkscape:export-filename="/home/elclanrs/Desktop/idealforms3.png"
-         xml:space="preserve"
-         style="font-size:22.03571128999999829px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:51.99999808999999829%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#942416;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu Medium"
-         x="597.02643"
-         y="434.70209"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <text
+         sodipodi:linespacing="51.999998%"
          id="text3766"
-         sodipodi:linespacing="51.999998%"><tspan
-           sodipodi:role="line"
-           id="tspan3768"
-           x="597.02643"
+         y="434.70209"
+         x="597.02643"
+         style="font-size:22.03571128999999829px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:51.99999808999999829%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#942416;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu Medium"
+         xml:space="preserve"
+         inkscape:export-filename="/home/elclanrs/Desktop/idealforms3.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90"
+         transform="scale(1.0066801,0.99336422)"><tspan
+           style="font-size:22.03571128999999829px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:51.99999808999999829%;letter-spacing:-0.90346420000000005px;writing-mode:lr-tb;text-anchor:start;fill:#942416;fill-opacity:1;font-family:Ubuntu;-inkscape-font-specification:Ubuntu Medium"
            y="434.70209"
-           style="font-size:22.03571128999999829px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:51.99999808999999829%;letter-spacing:-0.90346420000000005px;writing-mode:lr-tb;text-anchor:start;fill:#942416;fill-opacity:1;font-family:Ubuntu;-inkscape-font-specification:Ubuntu Medium">3</tspan></text>
+           x="597.02643"
+           id="tspan3768"
+           sodipodi:role="line">3</tspan></text>
     </g>
   </g>
 </svg>
