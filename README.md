@@ -75,7 +75,8 @@ defaults = {
   silentLoad: true,
   onValidate: $.noop,
   onSubmit: $.noop,
-  rules: {}
+  rules: {},
+  errors: {}
 }
 ```
 
@@ -516,12 +517,17 @@ Adds an `ajax` rule. First specify a URL on your input:
 <input type="text" name="username" data-idealforms-ajax="test-username.php"/>
 ```
 
-Then add the rule to the field _always_ at last.
+Then add the rule to the field _always_ at last and add an error to handle an invalid response:
 
 ```javascript
 $('form').idealforms({
   rules: {
     'username': 'required username ajax'
+  },
+  errors: {
+    'username': {
+      ajaxError: 'Username not available'
+    }
   }
 });
 ```
