@@ -603,7 +603,7 @@ If the rule is a function that takes rule parameters pass the parameters as `{0}
 
 ## Custom Extensions
 
-To add a custom extension provide a `name`, extended `options` and extended `methods` if any. You inject code into the following built-in methods:
+To add a custom extension provide a `name`, extended `options` and extended `methods` if any. You can inject code into the following built-in methods:
 
 - **_init:** Runs when the plugin is initialized, but before any inputs are added to the form.
 - **_buildField(input):** Builds the input given the markup options to work with ideal Forms. `input` is the current input element being built.
@@ -611,6 +611,7 @@ To add a custom extension provide a `name`, extended `options` and extended `met
 - **addRules:** It gets invoked on `_init` to add the initial rules and whenever you add more rules to the form.
 - **focusFirstInvalid:** Inject code when the first input is focused.
 
+For example:
 
 ```javascript
 $.idealforms.addExtension({
