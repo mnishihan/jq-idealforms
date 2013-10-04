@@ -3,11 +3,11 @@
 The best forms just got better! Ideal Forms 3 is smaller, faster, and more extensible.
 
 **Support:** IE9+ and all modern browsers.  
-**Demo:**
+**Demo:** http://cedricruiz.me/idealforms3
 
 ### Major changes since version 2
 
-Ideal Forms 3 is **not** compatible with version 2. Here's what's new:
+Ideal Forms 3 is **not** compatible with version 2. You can still find Ideal Forms 2 under [jq-idealforms-old](https://github.com/elclanrs/jq-idealforms-old), but support has been dropped. Here's what's new in version 3:
 
 - New architecture, more modularity
 - Custom markup
@@ -17,6 +17,11 @@ Ideal Forms 3 is **not** compatible with version 2. Here's what's new:
 - Switch to Stylus
 - Drop custom select menu
 - Drop support for IE8
+
+### TODO
+
+- Bring back responsive theme
+- Theming documentation
 
 ## Table of Contents
 
@@ -613,6 +618,8 @@ $.idealforms.addExtension({
 ```
 
 ## Themes
+
+TODO.
 
 ## FAQ
 
