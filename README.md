@@ -123,9 +123,13 @@ Callback that runs when the form is submitted.
 - **invalid:** The number of invalid fields if any.
 - **event:** The submit event (prevented by default).
 
-### rules, errors
+### rules
 
-See [Adding Rules](#adding-rules)
+Field rules. See [Adding Rules](#adding-rules)
+
+### errors
+
+Custom errors for fields you added with `rules`. Use the `name` of the input as key and the error as value.
 
 ## Markup
 
