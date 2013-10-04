@@ -1,4 +1,4 @@
-![Ideal Forms logo](http://i.imgur.com/F9erFXl.png)
+![Ideal Forms logo](http://i.imgur.com/45fVuUM.png)
 
 The best forms just got better! Ideal Forms 3 is smaller, faster, and more extensible.
 
