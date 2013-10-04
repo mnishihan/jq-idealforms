@@ -2,8 +2,8 @@
 
 The best forms just got better! Ideal Forms 3 is smaller, faster, and more extensible.
 
-**Support:** IE9+ and all modern browsers.  
 **License:** GPL or MIT  
+**Support:** IE9+ and all modern browsers  
 **Demo:** http://cedricruiz.me/idealforms3
 
 ### Major changes since version 2
