@@ -21,7 +21,6 @@ Ideal Forms 3 is **not** compatible with version 2. You can still find Ideal For
 ### TODO
 
 - Bring back responsive theme
-- Theming documentation
 
 ## Table of Contents
 
@@ -41,6 +40,7 @@ Ideal Forms 3 is **not** compatible with version 2. You can still find Ideal For
 - [Custom Rules](#custom-rules)
 - [Custom Extensions](#custom-extensions)
 - [Themes](#themes)
+- [FAQ](#faq)
 - [Build & Share](#build--share)
 
 ## Setup
@@ -619,7 +619,26 @@ $.idealforms.addExtension({
 
 ## Themes
 
-TODO.
+Ideal Forms 3 is using [Stylus](http://learnboost.github.io/stylus/). To create your own theme to use with the default markup open `styl/vars.stly`, modify what you need and [compile](#build--share).
+
+```sass
+valid = #3F9DCC // valid font color
+valid-bg = #EDF7FC // valid background color
+invalid = #CC2A18 // invalid font color
+invalid-bg = #FFEDED // invalid background color
+ajax = #CFAA19 // ajax font color
+ajax-bg = #FAF9E8 // ajax background color
+ui-element = #ddd // buttons, select and steps backgruond color
+error = #285d85 // error background color
+
+label-width = 120px // main labels width
+input-width = 290px // input width applies to all fields
+error-width = (input-width/1.5)
+radius = 3px // border-radius
+
+icon = true // disable icons (must disable in plugin options too)
+group-horizontal = false // group checkbox and radio horizontally
+```
 
 ## FAQ
 
@@ -636,6 +655,20 @@ Now you an use methods like so:
 ```javascript
 instance.reset(); // reset the form
 ```
+
+### Why the icons don't show up
+
+Ideal Forms assumes that your site has this common structure:
+
+```
+site
+  + css
+  + img
+  + js
+    index.html
+```
+
+When you download Ideal Forms, make sure to place the images inside `img`. If your folder structure is different you have to open `css/jquery.idealforms.css` and search and replace `../img/` with the correct path to your images folder relative to the plugin.
 
 ## Build & Share
 
