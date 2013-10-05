@@ -13,6 +13,7 @@ The best forms just got better! Ideal Forms 3 is smaller, faster, and more exten
 - Custom checkboxes, radios and file inputs
 - Custom seamless jQuery UI datepicker
 - Localization (todo)
+- Support for third party extensions
 
 ### Major changes since version 2
 
