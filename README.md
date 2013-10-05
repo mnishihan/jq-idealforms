@@ -742,9 +742,9 @@ Finally run `watch -c sh compile.sh` to watch for changes and compile. Now you'r
 
 If you want to test ajax make sure to run it on your localhost.
 
+**Enjoy** ![smiley](http://www.4smileys.com/smileys/happy-smileys/happy-smiley11.gif)
+
 ## Update History
 
 #### 05/10/13
 - Adaptive extension brings back responsive theme.
-
-**Enjoy** ![smiley](http://www.4smileys.com/smileys/happy-smileys/happy-smiley11.gif)
