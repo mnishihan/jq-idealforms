@@ -39,7 +39,7 @@ Ideal Forms 3 is **not** compatible with version 2. You can still find Ideal For
     - [Custom Inputs](#extension-custom-inputs)
     - [Ajax](#extension-ajax)
     - [Datepicker](#extension-datepicker)
-    - [Adaptive](#adaptive)
+    - [Adaptive](#extension-adaptive)
 - [Custom Rules](#custom-rules)
 - [Custom Extensions](#custom-extensions)
 - [Themes](#themes)
