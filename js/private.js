@@ -74,7 +74,7 @@ module.exports = {
         }
       })
       .blur(function() {
-        $field.find(self.opts.error).hide();
+        //$field.find(self.opts.error).hide();
       });
   },
 

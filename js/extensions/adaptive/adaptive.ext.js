@@ -16,7 +16,7 @@ module.exports = {
 
       var self = this;
 
-      $(window).resize(function() {
+      function adapt() {
 
         var formWidth = self.$form.outerWidth()
           , isAdaptive = self.opts.adaptiveWidth > formWidth;
@@ -26,9 +26,12 @@ module.exports = {
         if (self.opts.stepsContainer) {
           self.$stepsContainer.toggleClass('adaptive', isAdaptive);
         }
+      }
 
-        $('p.idealforms-field-width').remove();
-      });
+      $(window).resize(adapt);
+      adapt();
+
+      $('p.idealforms-field-width').remove();
     }
 
   }
