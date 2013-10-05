@@ -26,6 +26,8 @@ module.exports = {
         if (self.opts.stepsContainer) {
           self.$stepsContainer.toggleClass('adaptive', isAdaptive);
         }
+
+        $('p.idealforms-field-width').remove();
       });
     }
 
