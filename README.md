@@ -610,7 +610,14 @@ $('.datepicker').datepicker('option', 'dateFormat', 'yy-mm-dd');
 ```
 ### Extension: Adaptive
 
-Adapts the form to the container when resizing the browser allowing it to work with any responsive grid system. It obviously only works with the default theme. If you want to make your own responsive theme, Ideal Forms will add the class `adaptive` to the form and Steps navigation (if present).
+Adapts the form to the container when resizing the browser allowing it to work with any responsive grid system. It obviously only works with the default theme. Ideal Forms will add the class `adaptive` to the form and Steps navigation (if present) so you can add your own styles.
+
+Adaptive adds the `adaptiveWidth` plugin option that's calulated for the default theme but you'll need to change it if you use custom markup and styles. The formula is:
+
+```
+// Default: 120 + 290 + 290/1.5 + 20 + 20
+labelWidth + inputWidth + errorWidth + iconWidth + extraPadding
+```
 
 ## Custom Rules
 
