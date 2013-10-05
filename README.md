@@ -614,7 +614,7 @@ Adapts the form to the container when resizing the browser allowing it to work w
 
 Adaptive adds the `adaptiveWidth` plugin option that's calulated for the default theme but you'll need to change it if you use custom markup and styles. The formula is:
 
-```
+```sass
 // Default: 120 + 290 + 290/1.5 + 20 + 20
 labelWidth + inputWidth + errorWidth + iconWidth + extraPadding
 ```
