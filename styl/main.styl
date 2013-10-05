@@ -21,7 +21,7 @@ form.idealforms
     width: label-width
     margin-top: .55em
 
-  input, textarea, select, button, .field .group
+  input, textarea, select, .field .group
     reset-box-model()
     width: input-width
     padding: .55em
@@ -45,7 +45,7 @@ form.idealforms
 
   select
     padding: .55em
-    
+
     &:focus
       border: 1px solid darken(ui-element, 60)
 
@@ -173,3 +173,41 @@ form.idealforms
 
     .error
       top: 20px
+
+form.idealforms.adaptive
+
+  .field
+    float: none
+    max-width: input-width
+    clearfix()
+
+  label.main
+    display: block
+    float: none
+    width: auto
+    padding-bottom: .5em
+
+  input, textarea, select, .field .group
+    width: 100%
+
+  .field .icon
+    top: 0
+    margin-top: 3.1em
+
+  .error
+    position: relative
+    float: left
+    clear: both
+    width: 100%
+    left: 0
+    margin-left: 0
+    margin-top: 2px
+    border-radius: radius
+
+    &:after
+      top: 2px
+      left: 50%
+      margin-top: -1.4em
+      margin-left: -.35em
+      border-color: transparent
+      border-bottom-color: error

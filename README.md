@@ -21,7 +21,6 @@ Ideal Forms 3 is **not** compatible with version 2. You can still find Ideal For
 
 ### TODO
 
-- Bring back responsive theme
 - i18n
 
 ## Table of Contents
@@ -40,11 +39,13 @@ Ideal Forms 3 is **not** compatible with version 2. You can still find Ideal For
     - [Custom Inputs](#extension-custom-inputs)
     - [Ajax](#extension-ajax)
     - [Datepicker](#extension-datepicker)
+    - [Adaptive](#adaptive)
 - [Custom Rules](#custom-rules)
 - [Custom Extensions](#custom-extensions)
 - [Themes](#themes)
 - [FAQ](#faq)
 - [Build & Share](#build--share)
+- [Update History](#update-history)
 
 ## Setup
 
@@ -607,6 +608,9 @@ $('form').idealforms({
 
 $('.datepicker').datepicker('option', 'dateFormat', 'yy-mm-dd');
 ```
+### Extension: Adaptive
+
+Adapts the form to the container when resizing the browser allowing it to work with any responsive grid system. It obviously only works with the default theme. If you want to make your own responsive theme, Ideal Forms will add the class `adaptive` to the form and Steps navigation (if present).
 
 ## Custom Rules
 
@@ -737,5 +741,10 @@ Then clone the repo, `cd` into the folder and run `npm install` to install depen
 Finally run `watch -c sh compile.sh` to watch for changes and compile. Now you're ready to edit files and help make Ideal Forms better, or create your own fork.
 
 If you want to test ajax make sure to run it on your localhost.
+
+## Update History
+
+#### 05/10/13
+- Adaptive extension brings back responsive theme.
 
 **Enjoy** ![smiley](http://www.4smileys.com/smileys/happy-smileys/happy-smiley11.gif)
