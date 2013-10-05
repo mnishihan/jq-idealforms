@@ -4,6 +4,7 @@
  * @version: 3.0
  * @license GPL or MIT
  */
+.idealforms-field-width{width:619.3333333333334px}
 form.idealforms{zoom:1;line-height:1.5;}
 form.idealforms:before,form.idealforms:after{content:"";display:table}
 form.idealforms:after{clear:both}

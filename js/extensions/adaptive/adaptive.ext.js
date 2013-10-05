@@ -6,7 +6,7 @@ module.exports = {
   name: 'adaptive',
 
   options: {
-    adaptiveWidth: 120 + 290 + 290/1.5 + 20 + 20
+    adaptiveWidth: $('<p class="idealforms-field-width"/>').appendTo('body').css('width').replace('px','')
   },
 
   methods: {
@@ -14,8 +14,7 @@ module.exports = {
     // @extend
     _init: function () {
 
-      var self = this
-        , stepsContainer = this.opts.stepsContainer;
+      var self = this;
 
       $(window).resize(function() {
 
@@ -24,7 +23,7 @@ module.exports = {
 
         self.$form.toggleClass('adaptive', isAdaptive);
 
-        if (stepsContainer) {
+        if (self.opts.stepsContainer) {
           self.$stepsContainer.toggleClass('adaptive', isAdaptive);
         }
       });

@@ -100,12 +100,12 @@ form.idealforms
 
   .field .icon
     position: absolute
-    width: 16px
-    height: 16px
+    width: icon-size
+    height: icon-size
     top: 50%
     left: 100%
-    margin-top: -8px
-    margin-left: 8px
+    margin-top: -(icon-padding)
+    margin-left: icon-padding
     background: url(../img/validation.png) -16px 0 no-repeat
     cursor: pointer
 
@@ -139,7 +139,7 @@ form.idealforms
     top: 50%
     padding: 1em 1.5em
     width: error-width
-    margin-left: 32 + 8 px
+    margin-left: 32 + icon-padding
     if not icon
       margin-left: 1.25em
     background: error

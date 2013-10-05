@@ -6,6 +6,14 @@ The best forms just got better! Ideal Forms 3 is smaller, faster, and more exten
 **Support:** IE9+ and all modern browsers  
 **Demo:** http://cedricruiz.me/idealforms3
 
+### Features
+- On the spot validation
+- Fully adaptive (adapts to the container, no css media queries needed)
+- Keyboard support
+- Custom checkboxes, radios and file inputs
+- Custom seamless jQuery UI datepicker
+- Localization (todo)
+
 ### Major changes since version 2
 
 Ideal Forms 3 is **not** compatible with version 2. You can still find Ideal Forms 2 under [jq-idealforms-old](https://github.com/elclanrs/jq-idealforms-old), but support has been dropped. Here's what's new in version 3:
@@ -433,7 +441,7 @@ $('form').idealforms({
 
 The templating rules are:
 
-- **{var}:** A variable or property.
+- **{var}:** A variable.
 - **{@list} html {/list}:** A loop.
 - **{#var}:** A loop variable (inside the loop).
 
@@ -610,14 +618,13 @@ $('.datepicker').datepicker('option', 'dateFormat', 'yy-mm-dd');
 ```
 ### Extension: Adaptive
 
-Adapts the form to the container when resizing the browser allowing it to work with any responsive grid system. It obviously only works with the default theme. Ideal Forms will add the class `adaptive` to the form and Steps navigation (if present) so you can add your own styles.
+Adapts the form to the container when resizing the browser allowing it to work with any responsive grid system. Ideal Forms will add the class `adaptive` to the form and Steps navigation (if present) so you can add your own styles if you decide to use custom markup.
 
-Adaptive adds the `adaptiveWidth` plugin option that's calulated for the default theme but you'll need to change it if you use custom markup and styles. The formula is:
+Ideal Forms calculates the adaptive width at which the change of layout occurs. If you use custom markup and styles make sure to set the `adaptiveWidth` plugin option using the formula:
 
 ```javascript
 $('form').idealforms({
-  // Default: 120 + 290 + 290/1.5 + 20 + 20
-  adaptiveWidth: labelWidth + inputWidth + errorWidth + iconWidth + extraPadding
+  adaptiveWidth: 600 // the total width of a field (label + input + icon + error)
 });
 ```
 
@@ -704,7 +711,11 @@ error-width = (input-width/1.5)
 radius = 3px // border-radius
 
 icon = true // disable icons (must disable in plugin options too)
+icon-size = 16px // must be square icon
+icon-padding = 8px // padding between icon, input and error
+
 group-horizontal = false // group checkbox and radio horizontally
+
 ```
 
 ## FAQ
